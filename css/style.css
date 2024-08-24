@@ -1,0 +1,47 @@
+table, th, td{
+    padding: 15px;
+    border-collapse: collapse;
+    margin: auto;
+    margin-top: 5%;
+    font-family: 'Helvetica', sans-serif;
+    font-size: larger;
+
+}
+table{
+    width: 90%;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+
+}
+tr{
+    border: 1px solid #d4cdcd;
+}
+th{
+    background: green;
+    text-align: start;
+}
+button{
+    padding: 10px;
+}
+.edit{
+    background:rgb(47, 178, 221);
+    color: white;
+    width: 60px;
+    border: none;
+    border-radius: 8px;
+}
+.delete{
+    background: red;
+    color: white;
+    width: 80px;
+    border: none;
+    border-radius: 8px;
+}
+.view{
+    background:orange;
+    color: white;
+    width: 120px;
+    border: none;
+    border-radius: 8px;
+}
